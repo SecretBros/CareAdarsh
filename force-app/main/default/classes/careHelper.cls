@@ -25,6 +25,7 @@ public with sharing class careHelper {
         care.TotalOpportunityAmountAVG__c = 0;
       }
     }
+    system.debug('helloo');
     return listOfCares;
   }
 
